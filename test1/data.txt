@@ -1,0 +1,13 @@
+entity;buy/sell;agreedFx;Currency;InstructionDate;SettlementDate;Units;PricePerUnit;Comment
+foo; B; 0.50; SGP; 01 Jan 2016; 02 Jan 2016; 200; 100.25; sample data 1
+foo; B; 0.50; SGP; 07 Jan 2016; 08 Jan 2016; 200; 100.25; test data 1
+bar; S; 0.22; AED; 05 Jan 2016; 07 Jan 2016; 450; 150.50; sample data 2
+foo1; B; 0.50; SGP; 07 Jan 2016; 08 Jan 2016; 200; 100.25; test data - the same settlementDate 1
+foo; S; 0.50; SGP; 17 Jan 2016; 18 Jan 2016; 200; 100.25; test data 1
+foo2; B; 0.50; SGP; 11 Jan 2016; 12 Jan 2016; 200; 100.25; sample data 1+
+bar1; B; 0.22; AED; 14 Jan 2016; 16 Jan 2016; 450; 150.50; sample data saturday
+bar1; B; 0.22; AED; 15 Jan 2016; 17 Jan 2016; 450; 150.50; sample data 2+
+foo; S; 0.50; SGP; 16 Jan 2016; 17 Jan 2016; 200; 100.25; test data - the same settlementDate 1
+bar2; B; 0.22; SAR; 13 Jan 2016; 15 Jan 2016; 450; 150.50; sample data for SAR friday
+bar2; B; 0.22; SAR; 30 Dec 2016; 31 Dec 2016; 450; 150.50; sample data for SAR saturday -> sunday
+bar2; B; 0.22; JPM; 30 Dec 2016; 31 Dec 2016; 450; 150.50; sample data for JPM saturday -> monday
